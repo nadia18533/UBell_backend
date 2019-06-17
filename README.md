@@ -1,1 +1,0 @@
-# UniversitySchedule_backend
