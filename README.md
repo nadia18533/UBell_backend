@@ -1,2 +1,2 @@
 # UniversitySchedule_backend
-Version 2.2
+The newest is version 2.2 on branch version_2_2 
