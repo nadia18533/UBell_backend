@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="918ae13d-7280-497a-b316-4695f8ecefd1" name="Default Changelist" comment="Update properties">
+    <list default="true" id="918ae13d-7280-497a-b316-4695f8ecefd1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/resources/application.properties" afterDir="false" />
     </list>
@@ -85,8 +85,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="12" selection-start-column="12" selection-end-column="12" />
+            <state relative-caret-position="270">
+              <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -353,11 +353,25 @@
       <option name="project" value="LOCAL" />
       <updated>1561566550840</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Update properties">
+      <created>1561566816822</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1561566816822</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Update properties">
+      <created>1561566849197</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1561566849197</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18473000" />
+    <option name="totallyTimeSpent" value="18621000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1918" y="-10" width="1924" height="1046" extended-state="6" />
@@ -608,8 +622,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        <state relative-caret-position="270">
+          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
         </state>
       </provider>
     </entry>
