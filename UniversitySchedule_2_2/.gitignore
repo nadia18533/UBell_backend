@@ -1,0 +1,7 @@
+.idea/
+server/target
+
+.iml
+
+/client/node_modules
+/client/dist
