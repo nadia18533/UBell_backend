@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -33,16 +34,20 @@ public class TimetableController {
         return timetableService.getOneTimetable(id);
     }
 
-//    @PostMapping("/{id}")
-//    public void update(@RequestBody Artist artist, @PathVariable Long id){
-//        artistService.update(id, artist);
-//    }
-
-    @PostMapping("/{id}")
-    public void put(@RequestBody Timetable timetable){
-        timetableService.put(timetable);
-        System.out.println("try to put");
+    @PutMapping("/{id}")
+    public void update(@RequestBody Timetable timetable, @PathVariable Long id){
+        timetableService.update(id, timetable);
     }
+
+    @PostMapping
+    public void put(@RequestBody Timetable timetable){
+        timetableService.save(timetable);
+    }
+
+//    @PostMapping
+//    public ObjectDescription objectDescription(@RequestBody ObjectDescription objectDescription) {
+//        return objectDescriptionService.save(objectDescription);
+//    }
 
     @DeleteMapping("/{id}")
     public void remove(@PathVariable Long id){

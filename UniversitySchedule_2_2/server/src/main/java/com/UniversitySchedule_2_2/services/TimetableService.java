@@ -26,21 +26,27 @@ public class TimetableService {
         timetableRepository.deleteById(id);
     }
 
-    public void put(Timetable timetable){
-        timetableRepository.save(timetable);
+    public Timetable update(Long id, Timetable timetable) {
+        return timetableRepository.findById(id)
+            .map(employee -> {
+                employee.setId(timetable.getId());
+                employee.setTeacher(timetable.getTeacher());
+                employee.setSubject(timetable.getSubject());
+                employee.setTypeOfLesson(timetable.getSubject());
+                employee.setGroup(timetable.getGroup());
+                employee.setAudience(timetable.getAudience());
+                employee.setScheduleDate(timetable.getScheduleDate());
+                employee.setDescription(timetable.getDescription());
+                return timetableRepository.save(employee);
+            })
+            .orElseGet(() -> {
+                timetable.setId(id);
+                return timetableRepository.save(timetable);
+            });
     }
 
-    //TODO redo all method
-//    public Artist update(Long id, Artist artist) {
-//        return artistRepository.findById(id)
-//            .map(employee -> {
-//                artist.setId(id);
-//                return artistRepository.save(artist);
-//            })
-//            .orElseGet(() -> {
-//                artist.setId(id);
-//                return artistRepository.save(artist);
-//            });
-//    }
+    public Timetable save (Timetable timetable) {
+        return timetableRepository.save(timetable);
+    }
 
 }

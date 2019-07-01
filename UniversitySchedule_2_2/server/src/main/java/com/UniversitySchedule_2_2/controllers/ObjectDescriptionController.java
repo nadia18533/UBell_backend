@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -32,15 +33,15 @@ public class ObjectDescriptionController {
         return objectDescriptionService.getOneObjectDescription(id);
     }
 
-//    @PostMapping("/{id}")
-//    public void update(@RequestBody Artist artist, @PathVariable Long id){
-//        artistService.update(id, artist);
-//    }
+@PutMapping("/{id}")
+    public void update(@RequestBody ObjectDescription objectDescription, @PathVariable Long id){
+        objectDescriptionService.update(id, objectDescription);
+    }
 
-    @PostMapping("/{id}")
-    public void put(@RequestBody ObjectDescription objectDescription){
-        objectDescriptionService.put(objectDescription);
-        System.out.println("try to put");
+
+    @PostMapping
+  public void objectDescription(@RequestBody ObjectDescription objectDescription) {
+        objectDescriptionService.save(objectDescription);
     }
 
     @DeleteMapping("/{id}")
@@ -48,6 +49,5 @@ public class ObjectDescriptionController {
         objectDescriptionService.remove(id);
     }
 
-
-
 }
+

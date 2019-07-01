@@ -26,21 +26,22 @@ public class ObjectDescriptionService {
         objectDescriptionRepository.deleteById(id);
     }
 
-    public void put(ObjectDescription objectDescription){
-        objectDescriptionRepository.save(objectDescription);
+    public ObjectDescription update(Long id, ObjectDescription objectDescription) {
+        return objectDescriptionRepository.findById(id)
+            .map(employee -> {
+                employee.setId(objectDescription.getId());
+                employee.setName(objectDescription.getName());
+                employee.setNameQr(objectDescription.getNameQr());
+                employee.setDescription(objectDescription.getDescription());
+                return objectDescriptionRepository.save(employee);
+            })
+            .orElseGet(() -> {
+                objectDescription.setId(id);
+                return objectDescriptionRepository.save(objectDescription);
+            });
     }
 
-    //TODO redo all method
-//    public Artist update(Long id, Artist artist) {
-//        return artistRepository.findById(id)
-//            .map(employee -> {
-//                artist.setId(id);
-//                return artistRepository.save(artist);
-//            })
-//            .orElseGet(() -> {
-//                artist.setId(id);
-//                return artistRepository.save(artist);
-//            });
-//    }
-
+    public ObjectDescription save (ObjectDescription objectDescription) {
+        return objectDescriptionRepository.save(objectDescription);
+    }
 }
