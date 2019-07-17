@@ -1,9 +1,9 @@
 package com.UniversitySchedule_2_2.controllers;
 
-import static com.UniversitySchedule_2_2.util.ResourceMappings.TIMETABLE;
+import static com.UniversitySchedule_2_2.constants.ResourceMappings.TIMETABLE;
 
 import com.UniversitySchedule_2_2.dto.TimetableDTO;
-import com.UniversitySchedule_2_2.entities.Timetable;
+import com.UniversitySchedule_2_2.entity.Timetable;
 import com.UniversitySchedule_2_2.services.TimetableService;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -30,30 +30,24 @@ public class TimetableController {
 
     @GetMapping("/{id}")
     public TimetableDTO getOneTimetable(@PathVariable Long id) {
-        System.out.println("getting");
         return timetableService.getOneTimetable(id);
     }
 
-    @PutMapping("/{id}")
+@PutMapping("/{id}")
     public void update(@RequestBody Timetable timetable, @PathVariable Long id){
-        timetableService.update(id, timetable);
+  timetableService.update(id, timetable);
     }
+
 
     @PostMapping
-    public void put(@RequestBody Timetable timetable){
-        timetableService.save(timetable);
+  public void post(@RequestBody Timetable timetable) {
+      timetableService.save(timetable);
     }
-
-//    @PostMapping
-//    public ObjectDescription objectDescription(@RequestBody ObjectDescription objectDescription) {
-//        return objectDescriptionService.save(objectDescription);
-//    }
 
     @DeleteMapping("/{id}")
     public void remove(@PathVariable Long id){
-        timetableService.remove(id);
+      timetableService.remove(id);
     }
 
-
-
 }
+

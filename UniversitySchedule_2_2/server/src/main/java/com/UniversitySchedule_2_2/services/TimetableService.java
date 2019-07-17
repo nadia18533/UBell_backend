@@ -1,7 +1,8 @@
 package com.UniversitySchedule_2_2.services;
 
 import com.UniversitySchedule_2_2.dto.TimetableDTO;
-import com.UniversitySchedule_2_2.entities.Timetable;
+import com.UniversitySchedule_2_2.entity.Timetable;
+import com.UniversitySchedule_2_2.exception.ResourceNotFoundException;
 import com.UniversitySchedule_2_2.repositories.TimetableRepository;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -23,30 +24,30 @@ public class TimetableService {
     }
 
     public void remove(Long id){
-        timetableRepository.deleteById(id);
+      timetableRepository.deleteById(id);
     }
 
     public Timetable update(Long id, Timetable timetable) {
         return timetableRepository.findById(id)
             .map(employee -> {
                 employee.setId(timetable.getId());
-                employee.setTeacher(timetable.getTeacher());
-                employee.setSubject(timetable.getSubject());
-                employee.setTypeOfLesson(timetable.getSubject());
-                employee.setGroup(timetable.getGroup());
+                employee.setLessonDate(timetable.getLessonDate());
                 employee.setAudience(timetable.getAudience());
-                employee.setScheduleDate(timetable.getScheduleDate());
-                employee.setDescription(timetable.getDescription());
+                employee.setSubject(timetable.getSubject());
+                employee.setLessonType(timetable.getLessonType());
+                employee.setNumberOfLessonInDay(timetable.getNumberOfLessonInDay());
+                employee.setTeacher(timetable.getTeacher());
+                employee.setGroup(timetable.getGroup());
                 return timetableRepository.save(employee);
             })
-            .orElseGet(() -> {
-                timetable.setId(id);
-                return timetableRepository.save(timetable);
-            });
+            .orElseThrow(() -> new ResourceNotFoundException("PostId " + id + " not found"));
+//                  .orElseGet(() -> {
+//                    objectDescription.setId(id);
+//                return objectDescriptionRepository.save(objectDescription);
+//            });
     }
 
     public Timetable save (Timetable timetable) {
         return timetableRepository.save(timetable);
     }
-
 }
