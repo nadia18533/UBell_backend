@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/UniversitySchedule_2_2/UniversitySchedule_2_2.iml" filepath="$PROJECT_DIR$/UniversitySchedule_2_2/UniversitySchedule_2_2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/UniversitySchedule_backend.iml" filepath="$PROJECT_DIR$/.idea/UniversitySchedule_backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/UniversitySchedule_backend_2_2.iml" filepath="$PROJECT_DIR$/.idea/UniversitySchedule_backend_2_2.iml" />
       <module fileurl="file://$PROJECT_DIR$/UniversitySchedule_2_2/server/server.iml" filepath="$PROJECT_DIR$/UniversitySchedule_2_2/server/server.iml" />
     </modules>
   </component>

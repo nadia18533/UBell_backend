@@ -1,5 +1,7 @@
 package com.UniversitySchedule_2_2.dto;
 
+import com.UniversitySchedule_2_2.entity.Group;
+import com.UniversitySchedule_2_2.entity.Student;
 import com.UniversitySchedule_2_2.entity.Teacher;
 import lombok.Data;
 
@@ -14,7 +16,7 @@ public class StudentDTO {
 
   private String middleName;
 
-//    private Group group;
+  private Group group;
 
   private String phoneNumber1;
 
@@ -27,15 +29,24 @@ public class StudentDTO {
   public StudentDTO() {
   }
 
-  public StudentDTO(Teacher teacher) {
-    this.id = teacher.getId();
-    this.firstName = teacher.getFirstName();
-    this.lastName = teacher.getLastName();
-    this.middleName = teacher.getMiddleName();
-    this.phoneNumber1 = teacher.getPhoneNumber1();
-    this.phoneNumber2 = teacher.getPhoneNumber2();
-    this.address = teacher.getAddress();
-    this.about = teacher.getAbout();
-    }
+  public StudentDTO(Student student) {
+
+    //TODO Fix it
+    /**
+     * It's magic bug. If didn't wrote this local variables, these objects will be null
+     * I will fix it in future !!!
+     */
+    String bug_group = student.getGroup().getName();
+
+    this.id = student.getId();
+    this.firstName = student.getFirstName();
+    this.lastName = student.getLastName();
+    this.middleName = student.getMiddleName();
+    this.group = student.getGroup();
+    this.phoneNumber1 = student.getPhoneNumber1();
+    this.phoneNumber2 = student.getPhoneNumber2();
+    this.address = student.getAddress();
+    this.about = student.getAbout();
+  }
 
 }

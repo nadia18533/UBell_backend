@@ -1,5 +1,6 @@
 package com.UniversitySchedule_2_2.services;
 
+import com.UniversitySchedule_2_2.dto.QRCodeDTO;
 import com.UniversitySchedule_2_2.dto.TimetableDTO;
 import com.UniversitySchedule_2_2.entity.Timetable;
 import com.UniversitySchedule_2_2.exception.ResourceNotFoundException;
@@ -8,46 +9,74 @@ import java.util.List;
 import java.util.stream.Collectors;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.PathVariable;
 
 @Service
 public class TimetableService {
 
-    @Autowired
-    private TimetableRepository timetableRepository;
+  @Autowired
+  private TimetableRepository timetableRepository;
 
-    public List<TimetableDTO> getAllTimetables() {
-        return timetableRepository.findAll().stream().map(TimetableDTO::new).collect(Collectors.toList());
-    }
+  public List<TimetableDTO> getAllTimetables() {
+    return timetableRepository.findAll().stream().map(TimetableDTO::new)
+        .collect(Collectors.toList());
+  }
 
-    public TimetableDTO getOneTimetable(Long id) {
-        return new TimetableDTO(timetableRepository.getOne(id));
-    }
+  public List<TimetableDTO> getAllTimetablesByAudienceId(Long audienceId) {
+    return timetableRepository.findByAudienceId(audienceId).stream().map(TimetableDTO::new)
+        .collect(Collectors.toList());
+  }
 
-    public void remove(Long id){
-      timetableRepository.deleteById(id);
-    }
+//  public List<TimetableDTO> getAllTimetablesByAudienceName(String name){
+//    return timetableRepository.findByAudienceName(name).stream().map(TimetableDTO::new).collect(Collectors.toList());
+//  }
 
-    public Timetable update(Long id, Timetable timetable) {
-        return timetableRepository.findById(id)
-            .map(employee -> {
-                employee.setId(timetable.getId());
-                employee.setLessonDate(timetable.getLessonDate());
-                employee.setAudience(timetable.getAudience());
-                employee.setSubject(timetable.getSubject());
-                employee.setLessonType(timetable.getLessonType());
-                employee.setNumberOfLessonInDay(timetable.getNumberOfLessonInDay());
-                employee.setTeacher(timetable.getTeacher());
-                employee.setGroup(timetable.getGroup());
-                return timetableRepository.save(employee);
-            })
-            .orElseThrow(() -> new ResourceNotFoundException("PostId " + id + " not found"));
+  public List<TimetableDTO> getAllTimetablesByGroupName(String name) {
+    return timetableRepository.findByGroupName(name).stream().map(TimetableDTO::new)
+        .collect(Collectors.toList());
+  }
+
+  public List<TimetableDTO> getAllTimetablesByTeacher(String teacherFName, String teacherLName,
+      String teacherMName) {
+    return timetableRepository
+        .findByTeacherFirstNameAndTeacherLastNameAndTeacherMiddleName(teacherFName, teacherLName,
+            teacherMName).stream().map(TimetableDTO::new).collect(Collectors.toList());
+  }
+
+  public List<QRCodeDTO> getAllTimetablesByAudienceName(String name) {
+    return timetableRepository.findByAudienceName(name).stream().map(QRCodeDTO::new)
+        .collect(Collectors.toList());
+  }
+
+  public TimetableDTO getOneTimetable(Long id) {
+    return new TimetableDTO(timetableRepository.getOne(id));
+  }
+
+  public void remove(Long id) {
+    timetableRepository.deleteById(id);
+  }
+
+  public Timetable update(Long id, Timetable timetable) {
+    return timetableRepository.findById(id)
+        .map(employee -> {
+          employee.setId(timetable.getId());
+          employee.setLessonDate(timetable.getLessonDate());
+          employee.setAudience(timetable.getAudience());
+          employee.setSubject(timetable.getSubject());
+          employee.setLessonType(timetable.getLessonType());
+          employee.setNumberOfLessonInDay(timetable.getNumberOfLessonInDay());
+          employee.setTeacher(timetable.getTeacher());
+          employee.setGroup(timetable.getGroup());
+          return timetableRepository.save(employee);
+        })
+        .orElseThrow(() -> new ResourceNotFoundException("PostId " + id + " not found"));
 //                  .orElseGet(() -> {
 //                    objectDescription.setId(id);
 //                return objectDescriptionRepository.save(objectDescription);
 //            });
-    }
+  }
 
-    public Timetable save (Timetable timetable) {
-        return timetableRepository.save(timetable);
-    }
+  public Timetable save(Timetable timetable) {
+    return timetableRepository.save(timetable);
+  }
 }
