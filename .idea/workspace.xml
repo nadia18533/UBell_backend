@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba38bd48-69b3-4c5d-9821-fff64f0ad9d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/dto/QRCodeDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/c5f3c0ba-fb5f-42fe-9599-0afe5b156f21.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c5f3c0ba-fb5f-42fe-9599-0afe5b156f21.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c5f3c0ba-fb5f-42fe-9599-0afe5b156f21/storage_v2/_src_/database/schedule_1.iVQM1w/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c5f3c0ba-fb5f-42fe-9599-0afe5b156f21/storage_v2/_src_/database/schedule_1.iVQM1w/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/controllers/TimetableController.java" beforeDir="false" afterPath="$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/controllers/TimetableController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/dto/GroupDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/dto/GroupDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/dto/StudentDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/dto/StudentDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/dto/TeacherDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/dto/TeacherDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/dto/TimetableDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/dto/TimetableDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/repositories/TimetableRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/repositories/TimetableRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/services/TimetableService.java" beforeDir="false" afterPath="$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/services/TimetableService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UniversitySchedule_2_2/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/UniversitySchedule_2_2/.gitignore" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/UniversitySchedule_2_2/server/target/" />
     <ignored path="$PROJECT_DIR$/UniversitySchedule_2_2/target/" />
@@ -88,11 +75,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/repositories/TimetableRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="12" column="36" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="36" />
+            <state relative-caret-position="252">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/UniversitySchedule_2_2/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -115,6 +111,7 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/controllers/TimetableController.java" />
         <option value="$PROJECT_DIR$/UniversitySchedule_2_2/server/pom.xml" />
+        <option value="$PROJECT_DIR$/UniversitySchedule_2_2/.gitignore" />
       </list>
     </option>
   </component>
@@ -147,8 +144,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -243,6 +238,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -254,7 +251,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563455710369" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563455824600" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/UniversitySchedule_2_2/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -302,17 +299,41 @@
       <updated>1563393161908</updated>
       <workItem from="1563393163101" duration="566000" />
       <workItem from="1563393751498" duration="897000" />
-      <workItem from="1563440239593" duration="12217000" />
+      <workItem from="1563440239593" duration="12420000" />
+      <workItem from="1563531994265" duration="89000" />
     </task>
+    <task id="LOCAL-00001" summary="* add findByAudienceName, findByAudienceId. findByGroupName and findByTeacher don't work yet, because I have problems with cyrillic in GET requests.&#10;* Post requests work normal.&#10;* But not all objects come through Get requests. They are null.">
+      <created>1563455658244</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1563455658244</updated>
+    </task>
+    <task id="LOCAL-00002" summary="* add findByAudienceName, findByAudienceId. findByGroupName and findByTeacher don't work yet, because I have problems with cyrillic in GET requests.&#10;* Post requests work normal.&#10;* But not all objects come through Get requests. They are null.">
+      <created>1563455720425</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1563455720425</updated>
+    </task>
+    <task id="LOCAL-00003" summary="* add findByAudienceName, findByAudienceId. findByGroupName and findByTeacher don't work yet, because I have problems with cyrillic in GET requests.&#10;* Post requests work normal.&#10;* But not all objects come through Get requests. They are null.">
+      <created>1563455800531</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1563455800531</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13680000" />
+    <option name="totallyTimeSpent" value="13972000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="0" width="1926" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20757738" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20971185" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -320,7 +341,6 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Database Console" weight="0.32901832" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.715048" weight="0.2772384" />
@@ -335,7 +355,8 @@
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4994664" weight="0.32901832" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="14" sideWeight="0.4994664" visible="true" weight="0.32901832" />
+      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.4994664" visible="true" weight="0.32901832" />
+      <window_info anchor="bottom" id="Database Console" order="15" weight="0.32901832" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.2497332" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -409,20 +430,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://c5f3c0ba-fb5f-42fe-9599-0afe5b156f21/database/schedule_1/schema/public/table/department">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://c5f3c0ba-fb5f-42fe-9599-0afe5b156f21/database/schedule_1/schema/public/table/timetable">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://c5f3c0ba-fb5f-42fe-9599-0afe5b156f21/database/schedule_1/schema/public/table/department" />
+    <entry file="das://c5f3c0ba-fb5f-42fe-9599-0afe5b156f21/database/schedule_1/schema/public/table/timetable" />
     <entry file="file://$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/entity/Teacher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -437,13 +446,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://c5f3c0ba-fb5f-42fe-9599-0afe5b156f21/database/schedule_1/schema/public/table/rank">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://c5f3c0ba-fb5f-42fe-9599-0afe5b156f21/database/schedule_1/schema/public/table/rank" />
     <entry file="file://$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/dto/GroupDTO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -479,13 +482,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://c5f3c0ba-fb5f-42fe-9599-0afe5b156f21/database/schedule_1/schema/public/table/group_table">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://c5f3c0ba-fb5f-42fe-9599-0afe5b156f21/database/schedule_1/schema/public/table/group_table" />
     <entry file="file://$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/controllers/TimetableController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
@@ -525,8 +522,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/repositories/TimetableRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="12" column="36" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="36" />
+        <state relative-caret-position="252">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UniversitySchedule_2_2/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
         </state>
       </provider>
     </entry>
