@@ -61,10 +61,10 @@ public class Teacher extends TeacherDTO {
     @Column(name ="about", length = 300, nullable = true)
     private String about;
 
-    @JsonBackReference
-    @OneToMany(cascade = CascadeType.ALL,
-        fetch = FetchType.LAZY,
-        mappedBy = "curator")
-    private Set<Group> groupSet = new HashSet<>();
+//    @JsonBackReference
+//    @OneToMany(cascade = CascadeType.ALL,
+//        fetch = FetchType.LAZY,
+//        mappedBy = "curator")
+//    private Set<Group> groupList = new HashSet<>();
 
 }

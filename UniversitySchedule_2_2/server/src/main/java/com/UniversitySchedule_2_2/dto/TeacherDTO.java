@@ -42,8 +42,8 @@ public class TeacherDTO {
      * It's magic bug. If didn't wrote this local variables, these objects will be null
      * I will fix it in future !!!
      */
-    String bug_cathedra = teacher.getDepartment().getName();
-    String bug_rank = teacher.getRank().getName();
+    String bug_cathedra = teacher.getDepartment().toString();
+    String bug_rank = teacher.getRank().toString();
 
     this.id = teacher.getId();
     this.firstName = teacher.getFirstName();

@@ -2,6 +2,8 @@ package com.UniversitySchedule_2_2.services;
 
 import com.UniversitySchedule_2_2.dto.QRCodeDTO;
 import com.UniversitySchedule_2_2.dto.TimetableDTO;
+import com.UniversitySchedule_2_2.dto.TimetableStudentDTO;
+import com.UniversitySchedule_2_2.dto.TimetableTeacherDTO;
 import com.UniversitySchedule_2_2.entity.Timetable;
 import com.UniversitySchedule_2_2.exception.ResourceNotFoundException;
 import com.UniversitySchedule_2_2.repositories.TimetableRepository;
@@ -9,7 +11,6 @@ import java.util.List;
 import java.util.stream.Collectors;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.PathVariable;
 
 @Service
 public class TimetableService {
@@ -31,16 +32,17 @@ public class TimetableService {
 //    return timetableRepository.findByAudienceName(name).stream().map(TimetableDTO::new).collect(Collectors.toList());
 //  }
 
-  public List<TimetableDTO> getAllTimetablesByGroupName(String name) {
-    return timetableRepository.findByGroupName(name).stream().map(TimetableDTO::new)
+  //TODO ready
+  public List<TimetableStudentDTO> getAllTimetablesByGroupName(String name) {
+    return timetableRepository.findByGroupListName(name).stream().map(TimetableStudentDTO::new)
         .collect(Collectors.toList());
   }
 
-  public List<TimetableDTO> getAllTimetablesByTeacher(String teacherFName, String teacherLName,
+  public List<TimetableTeacherDTO> getAllTimetablesByTeacher(String teacherFName, String teacherLName,
       String teacherMName) {
     return timetableRepository
         .findByTeacherFirstNameAndTeacherLastNameAndTeacherMiddleName(teacherFName, teacherLName,
-            teacherMName).stream().map(TimetableDTO::new).collect(Collectors.toList());
+            teacherMName).stream().map(TimetableTeacherDTO::new).collect(Collectors.toList());
   }
 
   public List<QRCodeDTO> getAllTimetablesByAudienceName(String name) {
@@ -66,7 +68,7 @@ public class TimetableService {
           employee.setLessonType(timetable.getLessonType());
           employee.setNumberOfLessonInDay(timetable.getNumberOfLessonInDay());
           employee.setTeacher(timetable.getTeacher());
-          employee.setGroup(timetable.getGroup());
+          employee.setGroupList(timetable.getGroupList());
           return timetableRepository.save(employee);
         })
         .orElseThrow(() -> new ResourceNotFoundException("PostId " + id + " not found"));

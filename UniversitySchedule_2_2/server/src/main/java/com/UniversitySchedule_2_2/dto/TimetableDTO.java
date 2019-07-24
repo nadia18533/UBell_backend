@@ -6,10 +6,9 @@ import com.UniversitySchedule_2_2.entity.LessonType;
 import com.UniversitySchedule_2_2.entity.Subject;
 import com.UniversitySchedule_2_2.entity.Teacher;
 import com.UniversitySchedule_2_2.entity.Timetable;
-import com.fasterxml.jackson.annotation.JsonInclude;
-import com.fasterxml.jackson.annotation.JsonInclude.Include;
-import java.io.Serializable;
 import java.util.Date;
+import java.util.List;
+import java.util.stream.Collectors;
 import lombok.Data;
 
 //@JsonInclude(Include.NON_NULL)
@@ -30,7 +29,7 @@ public class TimetableDTO {
 
   private Teacher teacher;
 
-  private Group group;
+private List<Group> groupList;
 
   public TimetableDTO() {
   }
@@ -41,12 +40,19 @@ public class TimetableDTO {
     /**
      * It's magic bug. If didn't wrote this local variables, these objects will be null
      * I will fix it in future !!!
+     * In debug regime all works good
      */
-    String bug_audience = timetable.getAudience().getName();
-    String bug_subject = timetable.getSubject().getName();
-    String bug_lessonType = timetable.getLessonType().getName();
-    String bug_teacher = timetable.getTeacher().getFirstName();
-    String bug_group = timetable.getGroup().getName();
+//    String bug_audience = timetable.getAudience().getName();
+//    String bug_subject = timetable.getSubject().getName();
+//    String bug_lessonType = timetable.getLessonType().getName();
+//    String bug_teacher = timetable.getTeacher().getFirstName();
+//    String bug_group = timetable.getGroupList().get(0).getName();
+
+    String bug_audience = timetable.getAudience().toString();
+    String bug_subject = timetable.getSubject().toString();
+    String bug_lessonType = timetable.getLessonType().toString();
+    String bug_teacher = timetable.getTeacher().toString();
+    String bug_group = timetable.getGroupList().toString();
 
     this.id = timetable.getId();
     this.lessonDate = timetable.getLessonDate();
@@ -55,6 +61,31 @@ public class TimetableDTO {
     this.lessonType = timetable.getLessonType();
     this.numberOfLessonInDay = timetable.getNumberOfLessonInDay();
     this.teacher = timetable.getTeacher();
-    this.group = timetable.getGroup();
+    this.groupList = timetable.getGroupList();
+
+//    this.groupList = timetable.getGroupList().get(1).getName();
+//    this.nameOfGroups = Collections.singletonList(new Gson().toJson(timetable.getGroupList().stream()
+//        .map(GroupDTO::new)
+//        .collect(Collectors.toList())));
+//    this.nameOfGroups.add(timetable.getGroup().toString());
+
+//    this.nameOfGroups = new ArrayList<>(timetable.getGroupList().size());
+//    for (Group object : timetable.getGroupList()) {
+//      this.nameOfGroups.add(timetable.getGroupList().toString());
+
+//        List<String> strings = new ArrayList<>(list.size());
+//    for (Object object : list) {
+//      strings.add(Objects.toString(object, null));
+
+
+
+//    this.nameOfGroups = timetable.getGroupList().toString();
+//    this.nameOfGroups = timetable.getGroupList().stream()
+//        .map( Group::toString )
+//        .collect( Collectors.toList() );
+
+
+
   }
+
 }

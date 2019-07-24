@@ -5,7 +5,7 @@ import java.util.Date;
 import lombok.Data;
 
 @Data
-public class QRCodeDTO {
+public class TimetableStudentDTO {
 
   private Long id;
 
@@ -29,10 +29,10 @@ public class QRCodeDTO {
 
   private String group;
 
-  public QRCodeDTO() {
+  public TimetableStudentDTO() {
   }
 
-  public QRCodeDTO(Timetable timetable) {
+  public TimetableStudentDTO(Timetable timetable) {
     this.id = timetable.getId();
     this.numberOfLessonInDay = timetable.getNumberOfLessonInDay();
     this.subjectName = timetable.getSubject().getName();

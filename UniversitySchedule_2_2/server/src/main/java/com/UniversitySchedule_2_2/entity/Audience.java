@@ -33,10 +33,10 @@ public class Audience extends AudienceDTO {
     private String description;
 
 
-  @JsonBackReference
-  @OneToMany(cascade = CascadeType.ALL,
-      fetch = FetchType.LAZY,
-      mappedBy = "audience")
-  private Set<Timetable> timetableSet = new HashSet<>();
+//  @JsonBackReference
+//  @OneToMany(cascade = CascadeType.ALL,
+//      fetch = FetchType.LAZY,
+//      mappedBy = "audience")
+//  private Set<Timetable> timetableSet = new HashSet<>();
 
 }

@@ -1,9 +1,14 @@
 package com.UniversitySchedule_2_2.controllers;
 
+import static com.UniversitySchedule_2_2.constants.ResourceMappings.AUDIENCE_NAME;
+import static com.UniversitySchedule_2_2.constants.ResourceMappings.STUDENT_GROUP;
+import static com.UniversitySchedule_2_2.constants.ResourceMappings.TEACHER_NAME;
 import static com.UniversitySchedule_2_2.constants.ResourceMappings.TIMETABLE;
 
 import com.UniversitySchedule_2_2.dto.QRCodeDTO;
 import com.UniversitySchedule_2_2.dto.TimetableDTO;
+import com.UniversitySchedule_2_2.dto.TimetableStudentDTO;
+import com.UniversitySchedule_2_2.dto.TimetableTeacherDTO;
 import com.UniversitySchedule_2_2.entity.Timetable;
 import com.UniversitySchedule_2_2.services.TimetableService;
 import java.util.List;
@@ -39,24 +44,20 @@ public class TimetableController {
     return timetableService.getAllTimetablesByAudienceId(id);
   }
 
-//  @GetMapping("/audienceName/{name}")
-//  public  List<TimetableDTO> getAllTimetablesByAudienceName(@PathVariable String name){
-//    return timetableService.getAllTimetablesByAudienceName(name);
-//  }
-
-  @GetMapping("/teacherName/{teacherFName}/{teacherLName}/{teacherMName}")
-  public List<TimetableDTO> getAllTimetablesByTeacher(@PathVariable String teacherFName,
-      @PathVariable String teacherLName,  String teacherMName) {
+  @GetMapping(TEACHER_NAME+"/{teacherFName}/{teacherLName}/{teacherMName}")
+  public List<TimetableTeacherDTO> getAllTimetablesByTeacher(@PathVariable String teacherFName,
+      @PathVariable String teacherLName, @PathVariable String teacherMName) {
     return timetableService.getAllTimetablesByTeacher(teacherFName, teacherLName,
         teacherMName);
   }
 
-  @GetMapping("/studentGroup/{group}")
-  public List<TimetableDTO> getAllTimetablesByGroupName(@PathVariable String group) {
+  //TODO READY
+  @GetMapping(STUDENT_GROUP+"/{group}")
+  public List<TimetableStudentDTO> getAllTimetablesByGroupName(@PathVariable String group) {
     return timetableService.getAllTimetablesByGroupName(group);
   }
 
-  @GetMapping("/audienceName/{name}")
+  @GetMapping(AUDIENCE_NAME+"/{name}")
   public List<QRCodeDTO> getAllTimetablesByAudienceName(@PathVariable String name) {
     return timetableService.getAllTimetablesByAudienceName(name);
   }

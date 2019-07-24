@@ -4,7 +4,9 @@ import static com.UniversitySchedule_2_2.constants.DBConstants.INSTITUTE;
 
 import com.UniversitySchedule_2_2.dto.InstituteDTO;
 import com.fasterxml.jackson.annotation.JsonBackReference;
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
@@ -16,6 +18,8 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.ToString;
 
 @Entity
 @Data
@@ -29,10 +33,10 @@ public class Institute extends InstituteDTO {
     @Column(name = "name", length = 50, nullable = false)
     private String name;
 
-    @JsonBackReference
-    @OneToMany(cascade = CascadeType.ALL,
-        fetch = FetchType.LAZY,
-        mappedBy = "institute")
-    private Set<Group> groupSet = new HashSet<>();
+//    @JsonBackReference
+//    @OneToMany(cascade = CascadeType.ALL,
+//        fetch = FetchType.LAZY,
+//        mappedBy = "institute")
+//    private List<Group> groupList = new ArrayList<>();
 
 }
