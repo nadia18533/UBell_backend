@@ -13,5 +13,6 @@ public class DBConstants {
   public static final String INSTITUTE = "institute";
   public static final String RANK = "rank";
   public static final String STUDENT = "student";
+  public static final String TIMETABLE_GROUP = "timetable_group";
 
 }

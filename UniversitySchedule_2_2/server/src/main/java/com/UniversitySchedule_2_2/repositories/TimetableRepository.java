@@ -11,7 +11,8 @@ public interface TimetableRepository extends JpaRepository<Timetable, Long>{
 
   List<Timetable> findByAudienceId(Long id);
   List<Timetable> findByAudienceName(String  name);
-  List<Timetable> findByGroupName(String  name);
+  //TODO READY
+  List<Timetable> findByGroupListName(String  name);
   List<Timetable> findByTeacherFirstNameAndTeacherLastNameAndTeacherMiddleName(String  teacherFName, String  teacherLName, String  teacherMName);
 
 }

@@ -36,7 +36,7 @@ public class StudentDTO {
      * It's magic bug. If didn't wrote this local variables, these objects will be null
      * I will fix it in future !!!
      */
-    String bug_group = student.getGroup().getName();
+    String bug_group = student.getGroup().toString();
 
     this.id = student.getId();
     this.firstName = student.getFirstName();

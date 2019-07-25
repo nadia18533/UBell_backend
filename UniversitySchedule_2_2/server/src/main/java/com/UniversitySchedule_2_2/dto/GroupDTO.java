@@ -41,11 +41,11 @@ public class GroupDTO{
      * It's magic bug. If didn't wrote this local variables, these objects will be null
      * I will fix it in future !!!
      */
-    String bug_institute = group.getInstitute().getName();
-    String bug_specialty = group.getSpecialty().getName();
-    String bug_curator = group.getCurator().getFirstName();
-    String bug_captain = group.getCaptain().getFirstName();
-    String bug_cathedra = group.getCathedra().getName();
+    String bug_institute = group.getInstitute().toString();
+    String bug_specialty = group.getSpecialty().toString();
+    String bug_curator = group.getCurator().toString();
+    String bug_captain = group.getCaptain().toString();
+    String bug_cathedra = group.getCathedra().toString();
 
     this.id = group.getId();
     this.name = group.getName();

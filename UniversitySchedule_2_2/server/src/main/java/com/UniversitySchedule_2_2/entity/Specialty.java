@@ -6,7 +6,9 @@ import static com.UniversitySchedule_2_2.constants.DBConstants.SPECIALTY;
 import com.UniversitySchedule_2_2.dto.AudienceDTO;
 import com.UniversitySchedule_2_2.dto.SpecialtyDTO;
 import com.fasterxml.jackson.annotation.JsonBackReference;
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
@@ -31,10 +33,10 @@ public class Specialty extends SpecialtyDTO {
     @Column(name = "name", length = 100, nullable = false)
     private String name;
 
-  @JsonBackReference
-  @OneToMany(cascade = CascadeType.ALL,
-      fetch = FetchType.LAZY,
-      mappedBy = "specialty")
-  private Set<Group> groupSet = new HashSet<>();
+//  @JsonBackReference
+//  @OneToMany(cascade = CascadeType.ALL,
+//      fetch = FetchType.LAZY,
+//      mappedBy = "specialty")
+//  private List<Group> groupList = new ArrayList<>();
 
 }
