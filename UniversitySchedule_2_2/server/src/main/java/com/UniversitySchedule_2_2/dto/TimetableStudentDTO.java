@@ -1,6 +1,7 @@
 package com.UniversitySchedule_2_2.dto;
 
 import com.UniversitySchedule_2_2.entity.Timetable;
+import com.fasterxml.jackson.annotation.JsonFormat;
 import java.util.Date;
 import lombok.Data;
 
@@ -25,6 +26,7 @@ public class TimetableStudentDTO {
 
   private String lessonTypeAbbreviated;
 
+  @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+02")
   private Date lessonDate;
 
   private String group;
