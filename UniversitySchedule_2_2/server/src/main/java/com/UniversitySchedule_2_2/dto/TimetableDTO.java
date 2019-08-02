@@ -6,6 +6,7 @@ import com.UniversitySchedule_2_2.entity.LessonType;
 import com.UniversitySchedule_2_2.entity.Subject;
 import com.UniversitySchedule_2_2.entity.Teacher;
 import com.UniversitySchedule_2_2.entity.Timetable;
+import com.fasterxml.jackson.annotation.JsonFormat;
 import java.util.Date;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -17,6 +18,7 @@ public class TimetableDTO {
 
   private Long id;
 
+  @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+02")
   private Date lessonDate;
 
   private Audience audience;
