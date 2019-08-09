@@ -5,6 +5,8 @@ public class ResourceMappings {
     public static final String AUDIENCE = "/audience";
     public static final String TIMETABLE = "/timetable";
     public static final String GROUP = "/group";
+    public static final String INSTITUTE = "/institute";
+    public static final String TEACHER = "/teacher";
 
 
     /**

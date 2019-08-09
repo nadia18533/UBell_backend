@@ -26,7 +26,7 @@ public class TimetableStudentDTO {
 
   private String lessonTypeAbbreviated;
 
-  @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+02")
+  @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss Z", timezone = "GMT+02")
   private Date lessonDate;
 
   private String group;
