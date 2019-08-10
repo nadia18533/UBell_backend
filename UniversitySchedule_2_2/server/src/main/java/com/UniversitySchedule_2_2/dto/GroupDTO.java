@@ -1,15 +1,11 @@
 package com.UniversitySchedule_2_2.dto;
 
-import com.UniversitySchedule_2_2.entity.Audience;
 import com.UniversitySchedule_2_2.entity.Department;
 import com.UniversitySchedule_2_2.entity.Group;
 import com.UniversitySchedule_2_2.entity.Institute;
 import com.UniversitySchedule_2_2.entity.Specialty;
 import com.UniversitySchedule_2_2.entity.Student;
 import com.UniversitySchedule_2_2.entity.Teacher;
-import com.fasterxml.jackson.annotation.JsonInclude;
-import com.fasterxml.jackson.annotation.JsonInclude.Include;
-import java.io.Serializable;
 import lombok.Data;
 
 @Data

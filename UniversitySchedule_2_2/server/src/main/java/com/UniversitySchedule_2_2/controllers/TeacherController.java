@@ -20,6 +20,11 @@ public class TeacherController {
   @Autowired
   private TeacherService teacherService;
 
+  @GetMapping("/allTeacherNames/{department}")
+  public List<TeacherNamesDTO> getTeacherByDepartmentName(@PathVariable String department) {
+    return teacherService.getTeacherByDepartmentName(department);
+  }
+
   @GetMapping("/allTeacherNames")
   public List<TeacherNamesDTO> getAllTeacherNames() {
     return teacherService.getAllTeacherNames();

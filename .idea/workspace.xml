@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="481e0b73-cfbd-4edf-8a23-10a2fe16c73e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c5f3c0ba-fb5f-42fe-9599-0afe5b156f21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/controllers/TeacherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/controllers/TeacherController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/dto/GroupDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/dto/GroupDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/dto/TeacherNamesDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/dto/TeacherNamesDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/repositories/TeacherRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/repositories/TeacherRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/services/TeacherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/services/TeacherService.java" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/UniversitySchedule_2_2/server/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,29 +30,29 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="schedule_1@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="schedule_1@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="schedule_1@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="schedule_1: database" type="162271b6:PgImplModel$Database" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="schedule_1@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="schedule_1: database" type="162271b6:PgImplModel$Database" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="schedule_1@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="schedule_1: database" type="162271b6:PgImplModel$Database" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
@@ -54,7 +60,7 @@
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="schedule_1@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="schedule_1: database" type="162271b6:PgImplModel$Database" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
@@ -64,27 +70,97 @@
     </expand>
     <select />
   </component>
+  <component name="ExecutionTargetDialog">
+    <checked>
+      <node key="0f6f1a8d-33cf-4d30-ae58-cd307bca2971">
+        <node key="schedule_1" />
+      </node>
+    </checked>
+    <expanded>
+      <node key="0f6f1a8d-33cf-4d30-ae58-cd307bca2971" />
+    </expanded>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/repositories/TimetableRepository.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/controllers/TeacherController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="216">
+              <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+              <folding>
+                <element signature="e#902#903#0" expanded="true" />
+                <element signature="e#954#955#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/UniversitySchedule_2_2/.gitignore">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/dto/TeacherNamesDTO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+            <state relative-caret-position="306">
+              <caret line="18" column="77" selection-start-line="18" selection-start-column="77" selection-end-line="18" selection-end-column="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/controllers/GroupController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="30" column="3" lean-forward="true" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/constants/ResourceMappings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="46" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/UniversitySchedule_2_2/pom.xml" />
+        <option value="$PROJECT_DIR$/UniversitySchedule_2_2/server/pom.xml" />
+        <option value="$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/dto/TimetableDTO.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/dto/QRCodeDTO.java" />
+        <option value="$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/resources/sql/test_2.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/controllers/TimetableController.java" />
+        <option value="$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/services/TimetableService.java" />
+        <option value="$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/dto/TimetableStudentDTO.java" />
+        <option value="$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/dto/TimetableTeacherDTO.java" />
+        <option value="$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/repositories/TimetableRepository.java" />
+        <option value="$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/repositories/InstituteRepository.java" />
+        <option value="$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/dto/AllGroupNamesDTO.java" />
+        <option value="$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/dto/GroupNamesDTO.java" />
+        <option value="$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/dto/DepartmentNamesDTO.java" />
+        <option value="$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/repositories/GroupRepository.java" />
+        <option value="$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/services/DepartmentService.java" />
+        <option value="$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/constants/ResourceMappings.java" />
+        <option value="$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/services/GroupService.java" />
+        <option value="$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/controllers/GroupController.java" />
+        <option value="$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/controllers/InstituteController.java" />
+        <option value="$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/services/InstituteService.java" />
+        <option value="$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/dto/GroupDTO.java" />
+        <option value="$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/repositories/TeacherRepository.java" />
+        <option value="$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/services/TeacherService.java" />
+        <option value="$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/controllers/TeacherController.java" />
+        <option value="$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/dto/TeacherNamesDTO.java" />
+      </list>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -93,17 +169,152 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="UniversitySchedule_2_2" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="960" />
-    <option name="width" value="960" />
+    <option name="x" value="-3" />
+    <option name="width" value="1922" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="UniversitySchedule_backend_2_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UniversitySchedule_backend_2_2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UniversitySchedule_backend_2_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UniversitySchedule_backend_2_2" type="462c0819:PsiDirectoryNode" />
+              <item name="UniversitySchedule_2_2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UniversitySchedule_backend_2_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UniversitySchedule_backend_2_2" type="462c0819:PsiDirectoryNode" />
+              <item name="UniversitySchedule_2_2" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UniversitySchedule_backend_2_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UniversitySchedule_backend_2_2" type="462c0819:PsiDirectoryNode" />
+              <item name="UniversitySchedule_2_2" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UniversitySchedule_backend_2_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UniversitySchedule_backend_2_2" type="462c0819:PsiDirectoryNode" />
+              <item name="UniversitySchedule_2_2" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UniversitySchedule_backend_2_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UniversitySchedule_backend_2_2" type="462c0819:PsiDirectoryNode" />
+              <item name="UniversitySchedule_2_2" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UniversitySchedule_backend_2_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UniversitySchedule_backend_2_2" type="462c0819:PsiDirectoryNode" />
+              <item name="UniversitySchedule_2_2" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="UniversitySchedule_2_2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UniversitySchedule_backend_2_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UniversitySchedule_backend_2_2" type="462c0819:PsiDirectoryNode" />
+              <item name="UniversitySchedule_2_2" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="UniversitySchedule_2_2" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UniversitySchedule_backend_2_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UniversitySchedule_backend_2_2" type="462c0819:PsiDirectoryNode" />
+              <item name="UniversitySchedule_2_2" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="UniversitySchedule_2_2" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UniversitySchedule_backend_2_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UniversitySchedule_backend_2_2" type="462c0819:PsiDirectoryNode" />
+              <item name="UniversitySchedule_2_2" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="UniversitySchedule_2_2" type="462c0819:PsiDirectoryNode" />
+              <item name="repositories" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UniversitySchedule_backend_2_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UniversitySchedule_backend_2_2" type="462c0819:PsiDirectoryNode" />
+              <item name="UniversitySchedule_2_2" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="UniversitySchedule_2_2" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UniversitySchedule_backend_2_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UniversitySchedule_backend_2_2" type="462c0819:PsiDirectoryNode" />
+              <item name="UniversitySchedule_2_2" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UniversitySchedule_backend_2_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UniversitySchedule_backend_2_2" type="462c0819:PsiDirectoryNode" />
+              <item name="UniversitySchedule_2_2" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="sql" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -116,23 +327,103 @@
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name=".idea" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
             <path>
-              <item name="UniversitySchedule_backend_2_2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UniversitySchedule_2_2" type="462c0819:PsiDirectoryNode" />
+              <item name="UniversitySchedule_backend_2_2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="UniversitySchedule_2_2" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="UniversitySchedule_backend_2_2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="UniversitySchedule_2_2" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="server" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="UniversitySchedule_backend_2_2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="UniversitySchedule_2_2" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="server" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="UniversitySchedule_backend_2_2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="UniversitySchedule_2_2" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="server" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="UniversitySchedule_backend_2_2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="UniversitySchedule_2_2" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="server" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="UniversitySchedule_backend_2_2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="UniversitySchedule_2_2" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="server" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="UniversitySchedule_backend_2_2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="UniversitySchedule_2_2" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="server" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="UniversitySchedule_2_2" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="UniversitySchedule_backend_2_2" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="UniversitySchedule_2_2" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="server" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="UniversitySchedule_2_2" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="dto" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565379804523" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../remindme.server" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.UniversitySchedule_2_2.controllers" />
+      <recent name="com.UniversitySchedule_2_2.services" />
+      <recent name="com.UniversitySchedule_2_2.dto" />
+      <recent name="com.UniversitySchedule_2_2.repositories" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -146,12 +437,21 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.UniversitySchedule_2_2.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ba38bd48-69b3-4c5d-9821-fff64f0ad9d3" name="Default Changelist" comment="" />
+      <changelist id="481e0b73-cfbd-4edf-8a23-10a2fe16c73e" name="Default Changelist" comment="" />
       <created>1563393161908</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -160,45 +460,68 @@
       <workItem from="1563393751498" duration="897000" />
       <workItem from="1563440239593" duration="12420000" />
       <workItem from="1563531994265" duration="971000" />
-      <workItem from="1564048419110" duration="237000" />
+      <workItem from="1564048419110" duration="577000" />
+      <workItem from="1564049015005" duration="132000" />
+      <workItem from="1564049165661" duration="596000" />
+      <workItem from="1564049780184" duration="385000" />
+      <workItem from="1564050186209" duration="160000" />
+      <workItem from="1564050421728" duration="3064000" />
+      <workItem from="1564138660396" duration="9235000" />
+      <workItem from="1564307720203" duration="4990000" />
+      <workItem from="1564399629933" duration="4067000" />
+      <workItem from="1564488406050" duration="2571000" />
+      <workItem from="1564491125001" duration="8047000" />
+      <workItem from="1564578887738" duration="3025000" />
+      <workItem from="1564652904841" duration="2088000" />
+      <workItem from="1564672277802" duration="601000" />
+      <workItem from="1564764075481" duration="3444000" />
+      <workItem from="1564779324065" duration="1317000" />
+      <workItem from="1564825678750" duration="2107000" />
+      <workItem from="1564944494512" duration="27000" />
+      <workItem from="1564944562148" duration="1374000" />
+      <workItem from="1565358052735" duration="372000" />
+      <workItem from="1565368719627" duration="9375000" />
+      <workItem from="1565433922824" duration="3728000" />
+      <workItem from="1565459670678" duration="5017000" />
     </task>
-    <task id="LOCAL-00001" summary="* add findByAudienceName, findByAudienceId. findByGroupName and findByTeacher don't work yet, because I have problems with cyrillic in GET requests.&#10;* Post requests work normal.&#10;* But not all objects come through Get requests. They are null.">
-      <created>1563455658244</created>
+    <task id="LOCAL-00001" summary="* add JSON annotation for date&#10;* and update test_2.sql">
+      <created>1564653841421</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1563455658244</updated>
+      <updated>1564653841421</updated>
     </task>
-    <task id="LOCAL-00002" summary="* add findByAudienceName, findByAudienceId. findByGroupName and findByTeacher don't work yet, because I have problems with cyrillic in GET requests.&#10;* Post requests work normal.&#10;* But not all objects come through Get requests. They are null.">
-      <created>1563455720425</created>
+    <task id="LOCAL-00002" summary="* add JSON timezone annotation">
+      <created>1564773858138</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1563455720425</updated>
+      <updated>1564773858138</updated>
     </task>
-    <task id="LOCAL-00003" summary="* add findByAudienceName, findByAudienceId. findByGroupName and findByTeacher don't work yet, because I have problems with cyrillic in GET requests.&#10;* Post requests work normal.&#10;* But not all objects come through Get requests. They are null.">
-      <created>1563455800531</created>
+    <task id="LOCAL-00003" summary="* add JSON timezone annotation">
+      <created>1564774047919</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1563455800531</updated>
+      <updated>1564774047919</updated>
     </task>
-    <task id="LOCAL-00004" summary="add gitignore">
-      <created>1563532247060</created>
+    <task id="LOCAL-00004" summary="* create controller, dto, repository and service for group, institute, teacher and method in institute for department.&#10;* update JSON timezone annotation">
+      <created>1565379613641</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1563532247060</updated>
+      <updated>1565379613641</updated>
     </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21000" />
+    <option name="totallyTimeSpent" value="66073000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="0" width="1926" height="1050" extended-state="6" />
+    <frame x="-3" y="0" width="1922" height="1047" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21184632" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.271123" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -208,19 +531,19 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.715048" weight="0.2772384" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.399137" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.715048" weight="0.41666666" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.37864077" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32901832" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4994664" visible="true" weight="0.3279396" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4994664" weight="0.32686085" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.28495198" side_tool="true" weight="0.32901832" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4994664" weight="0.32901832" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.4994664" weight="0.3286638" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="14" sideWeight="0.4994664" visible="true" weight="0.42640692" />
       <window_info anchor="bottom" id="Database Console" order="15" weight="0.32901832" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.2497332" />
@@ -228,10 +551,524 @@
       <window_info anchor="right" id="Maven" order="3" weight="0.32977587" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.19637139" />
+      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.19679144" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.32977587" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="* add JSON annotation for date&#10;* and update test_2.sql" />
+    <MESSAGE value="* add JSON timezone annotation" />
+    <MESSAGE value="* create controller, dto, repository and service for group, institute, teacher and method in institute for department.&#10;* update JSON timezone annotation" />
+    <option name="LAST_COMMIT_MESSAGE" value="* create controller, dto, repository and service for group, institute, teacher and method in institute for department.&#10;* update JSON timezone annotation" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/controllers/TimetableController.java</url>
+          <line>60</line>
+          <properties class="com.UniversitySchedule_2_2.controllers.TimetableController" method="getAllTimetablesByAudienceName">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/entity/LessonType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://0f6f1a8d-33cf-4d30-ae58-cd307bca2971/database/schedule_1/extension/plpgsql" />
+    <entry file="file://$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/entity/Institute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UniversitySchedule_2_2/server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UniversitySchedule_2_2/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/entity/Audience.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/dto/AudienceDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/dto/LessonTypeDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/dto/RankDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/dto/SpecialtyDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/dto/StudentDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/dto/SubjectDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/dto/TeacherDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://0f6f1a8d-33cf-4d30-ae58-cd307bca2971/database/schedule_1/schema/public/table/timetable" />
+    <entry file="das://0f6f1a8d-33cf-4d30-ae58-cd307bca2971/database/schedule_1/schema/public/table/audience" />
+    <entry file="das://0f6f1a8d-33cf-4d30-ae58-cd307bca2971/database/schedule_1/schema/public/table/timetable_group" />
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/dto/QRCodeDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/resources/sql/test_2.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1602">
+          <caret line="89" column="14" selection-start-line="89" selection-start-column="14" selection-end-line="89" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/controllers/TimetableController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://0f6f1a8d-33cf-4d30-ae58-cd307bca2971/database/schedule_1/schema/public/table/group_table" />
+    <entry file="das://0f6f1a8d-33cf-4d30-ae58-cd307bca2971/database/schedule_1/schema/public/table/teacher" />
+    <entry file="file://$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/dto/TimetableStudentDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/dto/TimetableDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/services/TimetableService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/repositories/AudienceRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/dto/TimetableTeacherDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="49" column="3" lean-forward="true" selection-start-line="49" selection-start-column="3" selection-end-line="49" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/services/AudienceService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/entity/Group.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/0f6f1a8d-33cf-4d30-ae58-cd307bca2971.SCHEMA:schedule_1.public">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>0f6f1a8d-33cf-4d30-ae58-cd307bca2971.SCHEMA:schedule_1.public</OriginalElement>
+          <nodes>
+            <node x="391.0000000000001" y="207.5">0f6f1a8d-33cf-4d30-ae58-cd307bca2971.TABLE:schedule_1.public.lesson_type</node>
+            <node x="256.5000000000001" y="438.0">0f6f1a8d-33cf-4d30-ae58-cd307bca2971.TABLE:schedule_1.public.timetable</node>
+            <node x="861.2500000000001" y="680.0">0f6f1a8d-33cf-4d30-ae58-cd307bca2971.TABLE:schedule_1.public.student</node>
+            <node x="1076.0" y="219.0">0f6f1a8d-33cf-4d30-ae58-cd307bca2971.TABLE:schedule_1.public.institute</node>
+            <node x="339.7500000000001" y="761.0">0f6f1a8d-33cf-4d30-ae58-cd307bca2971.TABLE:schedule_1.public.timetable_group</node>
+            <node x="841.2500000000001" y="438.0">0f6f1a8d-33cf-4d30-ae58-cd307bca2971.TABLE:schedule_1.public.group_table</node>
+            <node x="762.0000000000001" y="0.0">0f6f1a8d-33cf-4d30-ae58-cd307bca2971.TABLE:schedule_1.public.department</node>
+            <node x="175.0000000000001" y="207.5">0f6f1a8d-33cf-4d30-ae58-cd307bca2971.TABLE:schedule_1.public.audience</node>
+            <node x="605.0000000000001" y="127.0">0f6f1a8d-33cf-4d30-ae58-cd307bca2971.TABLE:schedule_1.public.teacher</node>
+            <node x="894.0000000000001" y="219.0">0f6f1a8d-33cf-4d30-ae58-cd307bca2971.TABLE:schedule_1.public.specialty</node>
+            <node x="580.0000000000001" y="0.0">0f6f1a8d-33cf-4d30-ae58-cd307bca2971.TABLE:schedule_1.public.rank</node>
+            <node x="0.0" y="219.0">0f6f1a8d-33cf-4d30-ae58-cd307bca2971.TABLE:schedule_1.public.subject</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="0f6f1a8d-33cf-4d30-ae58-cd307bca2971.TABLE:schedule_1.public.timetable" target="0f6f1a8d-33cf-4d30-ae58-cd307bca2971.TABLE:schedule_1.public.subject">
+              <point x="-93.0" y="-96.0" />
+              <point x="287.5000000000001" y="418.0" />
+              <point x="77.5" y="418.0" />
+              <point x="0.0" y="38.5" />
+            </edge>
+            <edge source="0f6f1a8d-33cf-4d30-ae58-cd307bca2971.TABLE:schedule_1.public.timetable" target="0f6f1a8d-33cf-4d30-ae58-cd307bca2971.TABLE:schedule_1.public.lesson_type">
+              <point x="31.0" y="-96.0" />
+              <point x="411.5000000000001" y="408.0" />
+              <point x="488.0000000000001" y="408.0" />
+              <point x="0.0" y="50.0" />
+            </edge>
+            <edge source="0f6f1a8d-33cf-4d30-ae58-cd307bca2971.TABLE:schedule_1.public.timetable" target="0f6f1a8d-33cf-4d30-ae58-cd307bca2971.TABLE:schedule_1.public.audience">
+              <point x="-31.0" y="-96.0" />
+              <point x="349.5000000000001" y="408.0" />
+              <point x="273.0000000000001" y="408.0" />
+              <point x="0.0" y="50.0" />
+            </edge>
+            <edge source="0f6f1a8d-33cf-4d30-ae58-cd307bca2971.TABLE:schedule_1.public.teacher" target="0f6f1a8d-33cf-4d30-ae58-cd307bca2971.TABLE:schedule_1.public.rank">
+              <point x="-56.0" y="-130.5" />
+              <point x="0.0" y="38.5" />
+            </edge>
+            <edge source="0f6f1a8d-33cf-4d30-ae58-cd307bca2971.TABLE:schedule_1.public.group_table" target="0f6f1a8d-33cf-4d30-ae58-cd307bca2971.TABLE:schedule_1.public.teacher">
+              <point x="-66.0" y="-96.0" />
+              <point x="863.2500000000001" y="418.0" />
+              <point x="773.0000000000001" y="418.0" />
+              <point x="56.0" y="130.5" />
+            </edge>
+            <edge source="0f6f1a8d-33cf-4d30-ae58-cd307bca2971.TABLE:schedule_1.public.timetable_group" target="0f6f1a8d-33cf-4d30-ae58-cd307bca2971.TABLE:schedule_1.public.group_table">
+              <point x="40.75" y="-38.0" />
+              <point x="462.0000000000001" y="655.0" />
+              <point x="885.2500000000001" y="655.0" />
+              <point x="-44.0" y="96.0" />
+            </edge>
+            <edge source="0f6f1a8d-33cf-4d30-ae58-cd307bca2971.TABLE:schedule_1.public.teacher" target="0f6f1a8d-33cf-4d30-ae58-cd307bca2971.TABLE:schedule_1.public.department">
+              <point x="56.0" y="-130.5" />
+              <point x="773.0000000000001" y="102.0" />
+              <point x="802.5000000000001" y="102.0" />
+              <point x="-40.5" y="38.5" />
+            </edge>
+            <edge source="0f6f1a8d-33cf-4d30-ae58-cd307bca2971.TABLE:schedule_1.public.timetable_group" target="0f6f1a8d-33cf-4d30-ae58-cd307bca2971.TABLE:schedule_1.public.timetable">
+              <point x="-40.75" y="-38.0" />
+              <point x="0.0" y="96.0" />
+            </edge>
+            <edge source="0f6f1a8d-33cf-4d30-ae58-cd307bca2971.TABLE:schedule_1.public.timetable" target="0f6f1a8d-33cf-4d30-ae58-cd307bca2971.TABLE:schedule_1.public.teacher">
+              <point x="93.0" y="-96.0" />
+              <point x="473.5000000000001" y="418.0" />
+              <point x="661.0000000000001" y="418.0" />
+              <point x="-56.0" y="130.5" />
+            </edge>
+            <edge source="0f6f1a8d-33cf-4d30-ae58-cd307bca2971.TABLE:schedule_1.public.group_table" target="0f6f1a8d-33cf-4d30-ae58-cd307bca2971.TABLE:schedule_1.public.specialty">
+              <point x="22.0" y="-96.0" />
+              <point x="951.2500000000001" y="418.0" />
+              <point x="975.0000000000001" y="418.0" />
+              <point x="0.0" y="38.5" />
+            </edge>
+            <edge source="0f6f1a8d-33cf-4d30-ae58-cd307bca2971.TABLE:schedule_1.public.student" target="0f6f1a8d-33cf-4d30-ae58-cd307bca2971.TABLE:schedule_1.public.group_table">
+              <point x="0.0" y="-119.0" />
+              <point x="44.0" y="96.0" />
+            </edge>
+            <edge source="0f6f1a8d-33cf-4d30-ae58-cd307bca2971.TABLE:schedule_1.public.group_table" target="0f6f1a8d-33cf-4d30-ae58-cd307bca2971.TABLE:schedule_1.public.department">
+              <point x="-22.0" y="-96.0" />
+              <point x="907.2500000000001" y="418.0" />
+              <point x="883.5000000000001" y="418.0" />
+              <point x="40.5" y="38.5" />
+            </edge>
+            <edge source="0f6f1a8d-33cf-4d30-ae58-cd307bca2971.TABLE:schedule_1.public.group_table" target="0f6f1a8d-33cf-4d30-ae58-cd307bca2971.TABLE:schedule_1.public.institute">
+              <point x="66.0" y="-96.0" />
+              <point x="995.2500000000001" y="418.0" />
+              <point x="1153.5" y="418.0" />
+              <point x="0.0" y="38.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.1663113006396588" x="50.0" y="172.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/dto/DepartmentNamesDTO.java" />
+    <entry file="file://$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/repositories/TimetableRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/services/DepartmentService.java" />
+    <entry file="file://$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/repositories/InstituteRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/services/InstituteService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/services/GroupService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="25" column="52" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="52" />
+          <folding>
+            <element signature="e#968#969#0" expanded="true" />
+            <element signature="e#1036#1037#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/controllers/InstituteController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/dto/DepartmentDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/dto/InstituteDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="8" selection-start-line="8" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/dto/GroupNamesDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/dto/GroupDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/controllers/AudienceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/constants/ResourceMappings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="46" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/controllers/GroupController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="30" column="3" lean-forward="true" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/repositories/GroupRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/repositories/TeacherRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/services/TeacherService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/dto/TeacherNamesDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="77" selection-start-line="18" selection-start-column="77" selection-end-line="18" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UniversitySchedule_2_2/server/src/main/java/com/UniversitySchedule_2_2/controllers/TeacherController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+          <folding>
+            <element signature="e#902#903#0" expanded="true" />
+            <element signature="e#954#955#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>server:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>UniversitySchedule_backend_2_2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>UniversitySchedule_backend_2_2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

@@ -14,6 +14,10 @@ public class TeacherService {
     @Autowired
     private TeacherRepository teacherRepository;
 
+    public List<TeacherNamesDTO> getTeacherByDepartmentName(String department) {
+        return teacherRepository.findByDepartmentName(department).stream().map(TeacherNamesDTO::new).collect(Collectors.toList());
+    }
+
     public List<TeacherNamesDTO> getAllTeacherNames() {
         return teacherRepository.findAll().stream().map(TeacherNamesDTO::new).collect(Collectors.toList());
     }

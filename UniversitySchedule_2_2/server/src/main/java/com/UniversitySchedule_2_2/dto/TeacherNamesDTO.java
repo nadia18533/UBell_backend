@@ -16,7 +16,7 @@ public class TeacherNamesDTO {
 
   public TeacherNamesDTO(Teacher teacher) {
     this.id = teacher.getId();
-    this.fullName = teacher.getFirstName() + teacher.getLastName() + teacher.getMiddleName();
+    this.fullName = teacher.getFirstName() + " " + teacher.getLastName() + " " + teacher.getMiddleName();
   }
 
 }
