@@ -33,10 +33,4 @@ public class Specialty extends SpecialtyDTO {
     @Column(name = "name", length = 100, nullable = false)
     private String name;
 
-//  @JsonBackReference
-//  @OneToMany(cascade = CascadeType.ALL,
-//      fetch = FetchType.LAZY,
-//      mappedBy = "specialty")
-//  private List<Group> groupList = new ArrayList<>();
-
 }

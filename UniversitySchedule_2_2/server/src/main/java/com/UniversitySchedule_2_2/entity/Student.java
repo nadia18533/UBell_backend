@@ -1,14 +1,8 @@
 package com.UniversitySchedule_2_2.entity;
 
 import static com.UniversitySchedule_2_2.constants.DBConstants.STUDENT;
-import static com.UniversitySchedule_2_2.constants.DBConstants.TEACHER;
 
 import com.UniversitySchedule_2_2.dto.StudentDTO;
-import com.UniversitySchedule_2_2.dto.TeacherDTO;
-import com.fasterxml.jackson.annotation.JsonBackReference;
-import java.util.HashSet;
-import java.util.Set;
-import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
@@ -17,7 +11,6 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
-import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import lombok.Data;
 import org.hibernate.annotations.OnDelete;
@@ -57,11 +50,5 @@ public class Student extends StudentDTO {
 
     @Column(name ="about", length = 300, nullable = true)
     private String about;
-
-//    @JsonBackReference
-//    @OneToMany(cascade = CascadeType.ALL,
-//        fetch = FetchType.LAZY,
-//        mappedBy = "captain")
-//    private Set<Group> groupList = new HashSet<>();
 
 }

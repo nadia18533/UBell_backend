@@ -1,7 +1,6 @@
 package com.UniversitySchedule_2_2.services;
 
 import com.UniversitySchedule_2_2.dto.QRCodeDTO;
-import com.UniversitySchedule_2_2.dto.TeacherNamesDTO;
 import com.UniversitySchedule_2_2.dto.TimetableDTO;
 import com.UniversitySchedule_2_2.dto.TimetableStudentDTO;
 import com.UniversitySchedule_2_2.dto.TimetableTeacherDTO;
@@ -85,10 +84,6 @@ public class TimetableService {
           return timetableRepository.save(employee);
         })
         .orElseThrow(() -> new ResourceNotFoundException("PostId " + id + " not found"));
-//                  .orElseGet(() -> {
-//                    objectDescription.setId(id);
-//                return objectDescriptionRepository.save(objectDescription);
-//            });
   }
 
   public Timetable save(Timetable timetable) {

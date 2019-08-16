@@ -1,10 +1,8 @@
 package com.UniversitySchedule_2_2.services;
 
-import com.UniversitySchedule_2_2.dto.AudienceDTO;
 import com.UniversitySchedule_2_2.dto.InstituteDTO;
-import com.UniversitySchedule_2_2.entity.Audience;
+import com.UniversitySchedule_2_2.entity.Institute;
 import com.UniversitySchedule_2_2.exception.ResourceNotFoundException;
-import com.UniversitySchedule_2_2.repositories.AudienceRepository;
 import com.UniversitySchedule_2_2.repositories.InstituteRepository;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -27,6 +25,20 @@ public class InstituteService {
 
     public void remove(Long id){
       instituteRepository.deleteById(id);
+    }
+
+    public Institute update(Long id, Institute institute) {
+        return instituteRepository.findById(id)
+            .map(employee -> {
+                employee.setId(institute.getId());
+                employee.setName(institute.getName());
+                return instituteRepository.save(employee);
+            })
+            .orElseThrow(() -> new ResourceNotFoundException("PostId " + id + " not found"));
+    }
+
+    public Institute save (Institute institute) {
+        return instituteRepository.save(institute);
     }
 
 }

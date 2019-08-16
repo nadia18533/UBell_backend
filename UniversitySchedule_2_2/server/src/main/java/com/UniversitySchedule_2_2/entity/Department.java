@@ -31,10 +31,4 @@ public class Department extends DepartmentDTO {
     @Column(name = "name", length = 100, nullable = false)
     private String name;
 
-//    @JsonBackReference
-//    @OneToMany(cascade = CascadeType.ALL,
-//        fetch = FetchType.LAZY,
-//        mappedBy = "department")
-//    private Set<Group> groupList = new HashSet<>();
-
 }

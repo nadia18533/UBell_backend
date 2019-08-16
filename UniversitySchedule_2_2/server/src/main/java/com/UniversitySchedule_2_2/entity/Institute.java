@@ -33,10 +33,4 @@ public class Institute extends InstituteDTO {
     @Column(name = "name", length = 50, nullable = false)
     private String name;
 
-//    @JsonBackReference
-//    @OneToMany(cascade = CascadeType.ALL,
-//        fetch = FetchType.LAZY,
-//        mappedBy = "institute")
-//    private List<Group> groupList = new ArrayList<>();
-
 }

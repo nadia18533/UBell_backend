@@ -32,11 +32,4 @@ public class Audience extends AudienceDTO {
     @Column(name ="description", length = 300, nullable = true)
     private String description;
 
-
-//  @JsonBackReference
-//  @OneToMany(cascade = CascadeType.ALL,
-//      fetch = FetchType.LAZY,
-//      mappedBy = "audience")
-//  private Set<Timetable> timetableSet = new HashSet<>();
-
 }

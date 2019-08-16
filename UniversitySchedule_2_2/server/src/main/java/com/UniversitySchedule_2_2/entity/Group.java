@@ -43,13 +43,6 @@ public class Group extends GroupDTO {
   @OnDelete(action = OnDeleteAction.CASCADE)
   private Teacher curator;
 
-  // !
-
-//  @ManyToOne(fetch = FetchType.LAZY, optional = true)
-//  @JoinColumn(name = "captain_id", nullable = true)
-//  @OnDelete(action = OnDeleteAction.CASCADE)
-//  private Student captain;
-
   @ManyToOne(fetch = FetchType.LAZY, optional = false)
   @JoinColumn(name = "department_id", nullable = false)
   @OnDelete(action = OnDeleteAction.CASCADE)
@@ -57,17 +50,6 @@ public class Group extends GroupDTO {
 
   @Column(name = "course", nullable = false)
   private Integer course;
-
-//  //    @ManyToMany(mappedBy = "groupList")
-////    @ManyToMany(mappedBy = "groupList",fetch = FetchType.EAGER)
-//  @JsonBackReference
-//  @OneToMany(cascade = CascadeType.ALL,
-//      fetch = FetchType.LAZY,
-//      mappedBy = "group")
-//  private List<Timetable> timetables = new ArrayList<>();
-
-//  @ManyToMany(mappedBy = "groupList")
-//  private List<Timetable> timetables = new ArrayList<>();
 
 }
 

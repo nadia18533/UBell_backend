@@ -28,10 +28,4 @@ public class LessonType extends LessonTypeDTO {
     @Column(name = "abbreviated", length = 10, nullable = false)
     private String abbreviated;
 
-//  @JsonBackReference
-//  @OneToMany(cascade = CascadeType.ALL,
-//      fetch = FetchType.LAZY,
-//      mappedBy = "objectDescription")
-//  private Set<Timetable> timetableSet = new HashSet<>();
-
 }

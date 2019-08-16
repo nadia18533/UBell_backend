@@ -36,10 +36,6 @@ public class AudienceService {
                 return audienceRepository.save(employee);
             })
             .orElseThrow(() -> new ResourceNotFoundException("PostId " + id + " not found"));
-//                  .orElseGet(() -> {
-//                    objectDescription.setId(id);
-//                return objectDescriptionRepository.save(objectDescription);
-//            });
     }
 
     public Audience save (Audience audience) {

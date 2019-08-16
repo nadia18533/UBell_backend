@@ -2,7 +2,6 @@ package com.UniversitySchedule_2_2.entity;
 
 import static com.UniversitySchedule_2_2.constants.DBConstants.SUBJECT;
 
-import com.UniversitySchedule_2_2.dto.AudienceDTO;
 import com.UniversitySchedule_2_2.dto.SubjectDTO;
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -23,11 +22,5 @@ public class Subject extends SubjectDTO {
 
     @Column(name = "name", length = 50, nullable = false)
     private String name;
-
-//  @JsonBackReference
-//  @OneToMany(cascade = CascadeType.ALL,
-//      fetch = FetchType.LAZY,
-//      mappedBy = "objectDescription")
-//  private Set<Timetable> timetableSet = new HashSet<>();
 
 }

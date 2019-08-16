@@ -35,6 +35,23 @@ public class GroupService {
       groupRepository.deleteById(id);
     }
 
+    public Group update(Long id, Group group) {
+        return groupRepository.findById(id)
+            .map(employee -> {
+                employee.setId(group.getId());
+                employee.setName(group.getName());
+                employee.setInstitute(group.getInstitute());
+                employee.setSpecialty(group.getSpecialty());
+                employee.setCurator(group.getCurator());
+                employee.setDepartment(group.getDepartment());
+                employee.setCourse(group.getCourse());
+                return groupRepository.save(employee);
+            })
+            .orElseThrow(() -> new ResourceNotFoundException("PostId " + id + " not found"));
+    }
 
+    public Group save (Group group) {
+        return groupRepository.save(group);
+    }
 
 }

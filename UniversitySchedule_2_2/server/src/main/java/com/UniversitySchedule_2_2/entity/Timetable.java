@@ -29,7 +29,6 @@ import org.hibernate.annotations.OnDeleteAction;
 public class Timetable extends TimetableDTO {
 
     @Id
-//    @GeneratedValue(strategy = GenerationType.AUTO)
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
@@ -59,30 +58,6 @@ public class Timetable extends TimetableDTO {
     @JoinColumn(name = "teacher_id", nullable = false)
     @OnDelete(action = OnDeleteAction.CASCADE)
     private Teacher teacher;
-
-//    @ManyToOne(fetch = FetchType.LAZY, optional = false)
-//    @JoinColumn(name = "group_id_1", nullable = false)
-//    @OnDelete(action = OnDeleteAction.CASCADE)
-//    private Group group;
-
-//    @ManyToMany(cascade = CascadeType.ALL)
-//    @JoinTable(name = "timetable_group",
-//        joinColumns = @JoinColumn(name = "timetable_id", referencedColumnName = "id"),
-//        inverseJoinColumns = @JoinColumn(name = "group_id", referencedColumnName = "id"))
-
-
-//    @ManyToMany(cascade = CascadeType.ALL)
-//    @JoinTable(name = "timetable_group",
-//        joinColumns = @JoinColumn(name = "timetable_id"),
-//        inverseJoinColumns = @JoinColumn(name = "group_id"))
-
-//    @ManyToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-
-//    @JsonBackReference
-//    @OneToMany(cascade = CascadeType.ALL,
-//        fetch = FetchType.LAZY,
-//        mappedBy = "timetable")
-//    private List<Group> groupList = new ArrayList<>();
 
     @ManyToMany(cascade = CascadeType.ALL)
     @OnDelete(action = OnDeleteAction.CASCADE)
