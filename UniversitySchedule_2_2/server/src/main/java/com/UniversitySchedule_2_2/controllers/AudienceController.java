@@ -23,7 +23,7 @@ public class AudienceController {
     @Autowired
     private AudienceService audienceService;
 
-    @GetMapping
+  @GetMapping("/allAudiences")
     public List<AudienceDTO> getAllAudiences() {
         return audienceService.getAllAudiences();
     }

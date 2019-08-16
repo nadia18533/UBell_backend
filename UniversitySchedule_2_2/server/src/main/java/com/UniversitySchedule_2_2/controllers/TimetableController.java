@@ -31,7 +31,7 @@ public class TimetableController {
   @Autowired
   private TimetableService timetableService;
 
-  @GetMapping
+  @GetMapping("/allTimetables")
   public List<TimetableDTO> getAllTimetables() {
     return timetableService.getAllTimetables();
   }
@@ -109,7 +109,6 @@ public class TimetableController {
   public void update(@RequestBody Timetable timetable, @PathVariable Long id) {
     timetableService.update(id, timetable);
   }
-
 
   @PostMapping
   public void post(@RequestBody Timetable timetable) {

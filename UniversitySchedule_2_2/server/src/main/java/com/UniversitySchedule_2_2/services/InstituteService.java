@@ -15,7 +15,7 @@ public class InstituteService {
     @Autowired
     private InstituteRepository instituteRepository;
 
-    public List<InstituteDTO> getAllInstituteNames() {
+    public List<InstituteDTO> getAllInstitutes() {
         return instituteRepository.findAll().stream().map(InstituteDTO::new).collect(Collectors.toList());
     }
 

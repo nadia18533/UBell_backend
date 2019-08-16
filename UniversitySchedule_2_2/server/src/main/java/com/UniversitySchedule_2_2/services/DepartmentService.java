@@ -18,7 +18,7 @@ public class DepartmentService {
     @Autowired
     private DepartmentRepository departmentRepository;
 
-    public List<DepartmentDTO> getAllDepartmentNames() {
+    public List<DepartmentDTO> getAllDepartments() {
         return departmentRepository.findAll().stream().map(DepartmentDTO::new).collect(Collectors.toList());
     }
 
