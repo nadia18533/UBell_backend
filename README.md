@@ -57,4 +57,4 @@ You can find out a schedule for a teacher, audience, or group for any length of 
 
 ----
 
-It is version 2.2 from branch version_2_2 
+> It is version 2.2 from branch version_2_2 
