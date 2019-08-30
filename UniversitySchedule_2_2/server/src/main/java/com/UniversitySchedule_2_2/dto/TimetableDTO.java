@@ -12,7 +12,6 @@ import java.util.List;
 import java.util.stream.Collectors;
 import lombok.Data;
 
-//@JsonInclude(Include.NON_NULL)
 @Data
 public class TimetableDTO {
 
@@ -44,12 +43,6 @@ private List<Group> groupList;
      * I will fix it in future !!!
      * In debug regime all works good
      */
-//    String bug_audience = timetable.getAudience().getName();
-//    String bug_subject = timetable.getSubject().getName();
-//    String bug_lessonType = timetable.getLessonType().getName();
-//    String bug_teacher = timetable.getTeacher().getFirstName();
-//    String bug_group = timetable.getGroupList().get(0).getName();
-
     String bug_audience = timetable.getAudience().toString();
     String bug_subject = timetable.getSubject().toString();
     String bug_lessonType = timetable.getLessonType().toString();
@@ -64,29 +57,6 @@ private List<Group> groupList;
     this.numberOfLessonInDay = timetable.getNumberOfLessonInDay();
     this.teacher = timetable.getTeacher();
     this.groupList = timetable.getGroupList();
-
-//    this.groupList = timetable.getGroupList().get(1).getName();
-//    this.nameOfGroups = Collections.singletonList(new Gson().toJson(timetable.getGroupList().stream()
-//        .map(GroupDTO::new)
-//        .collect(Collectors.toList())));
-//    this.nameOfGroups.add(timetable.getGroup().toString());
-
-//    this.nameOfGroups = new ArrayList<>(timetable.getGroupList().size());
-//    for (Group object : timetable.getGroupList()) {
-//      this.nameOfGroups.add(timetable.getGroupList().toString());
-
-//        List<String> strings = new ArrayList<>(list.size());
-//    for (Object object : list) {
-//      strings.add(Objects.toString(object, null));
-
-
-
-//    this.nameOfGroups = timetable.getGroupList().toString();
-//    this.nameOfGroups = timetable.getGroupList().stream()
-//        .map( Group::toString )
-//        .collect( Collectors.toList() );
-
-
 
   }
 
