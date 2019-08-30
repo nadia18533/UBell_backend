@@ -55,4 +55,6 @@ You can find out a schedule for a teacher, audience, or group for any length of 
 <img src="https://github.com/VitaliyDzen/UniversitySchedule_backend/blob/version_2_2/AndroidScreenshots/photo5422816216508115751.jpg" width="252" height="448">
 </p>
 
+----
 
+It is version 2.2 from branch version_2_2 
