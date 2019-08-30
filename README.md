@@ -37,7 +37,11 @@ You can receive your schedule for today, tomorrow or another day in calendar
 
 #### QR Code panel
 You can scan the QR code near each audience and find out which subject, which teacher and which group are in the audience now
-
+<p align="center">
+<img src="" width="252" height="448">
+<img src="https://github.com/VitaliyDzen/UniversitySchedule_backend/blob/version_2_2/AndroidScreenshots/photo5422731962134670248.jpg" width="252" height="448">
+<img src="" width="252" height="448">
+</p>
 
 #### Search panel
 You can find out a schedule for a teacher, audience, or group for any length of time
