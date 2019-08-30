@@ -33,7 +33,11 @@ Plagins
 ### Android application (Java)
 #### Home panel
 You can receive your schedule for today, tomorrow or another day in calendar
-
+<p align="center">
+<img src="https://github.com/VitaliyDzen/UniversitySchedule_backend/blob/version_2_2/AndroidScreenshots/photo5422816216508115742.jpg" width="252" height="448">
+<img src="https://github.com/VitaliyDzen/UniversitySchedule_backend/blob/version_2_2/AndroidScreenshots/photo5422731962134670237.jpg" width="252" height="448">
+<img src="https://github.com/VitaliyDzen/UniversitySchedule_backend/blob/version_2_2/AndroidScreenshots/photo5422816216508115741.jpg" width="252" height="448">
+</p>
 
 #### QR Code panel
 You can scan the QR code near each audience and find out which subject, which teacher and which group are in the audience now
