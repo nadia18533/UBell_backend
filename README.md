@@ -1,5 +1,5 @@
-# UBell
-UBell is a project designed to help students and teachers easily, quickly and comfortably
+# UniBell
+UniBell is a project designed to help students and teachers easily, quickly and comfortably
  receive their university schedule.
 * This project will be introduced to the Lviv State University of Life Safety in September - October 2019
 
