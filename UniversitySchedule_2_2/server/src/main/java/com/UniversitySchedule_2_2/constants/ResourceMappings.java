@@ -12,6 +12,8 @@ public class ResourceMappings {
     public static final String STUDENT = "/student";
     public static final String SUBJECT = "/subject";
     public static final String TEACHER = "/teacher";
+    public static final String REGISTERED_STUDENT = "/registeredStudent";
+    public static final String REGISTERED_TEACHER = "/registeredTeacher";
     public static final String TIMETABLE = "/timetable";
 
 
