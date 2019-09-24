@@ -21,13 +21,13 @@ public class RegisteredTeacher extends RegisteredTeacherDTO {
     @Column(name = "id", updatable = false, nullable = false)
     private Long id;
 
-    @Column(name = "user_full_name", length = 30, nullable = false)
+    @Column(name = "user_full_name", length = 100, nullable = false)
     private String userFullName;
 
-    @Column(name = "department", length = 30, nullable = false)
+    @Column(name = "department", length = 100, nullable = false)
     private String department;
 
-    @Column(name = "institute", length = 30, nullable = false)
+    @Column(name = "institute", length = 100, nullable = false)
     private String institute;
 
     @Column(name = "os_version", length = 300)
