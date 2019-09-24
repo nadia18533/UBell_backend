@@ -21,19 +21,19 @@ public class RegisteredStudent extends RegisteredStudentDTO {
     @Column(name = "id", updatable = false, nullable = false)
     private Long id;
 
-    @Column(name = "user_f_name", length = 30, nullable = false)
+    @Column(name = "user_f_name", length = 100, nullable = false)
     private String userFName;
 
-    @Column(name = "user_l_name", length = 30, nullable = false)
+    @Column(name = "user_l_name", length = 100, nullable = false)
     private String userLName;
 
-    @Column(name = "institute", length = 30, nullable = false)
+    @Column(name = "institute", length = 100, nullable = false)
     private String institute;
 
-    @Column(name = "course", length = 30, nullable = false)
+    @Column(name = "course", length = 100, nullable = false)
     private String course;
 
-    @Column(name = "group_name", length = 30, nullable = false)
+    @Column(name = "group_name", length = 100, nullable = false)
     private String group;
 
     @Column(name = "os_version", length = 300)
