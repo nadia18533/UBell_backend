@@ -1,6 +1,7 @@
 package com.UniversitySchedule_2_2.dto;
 
 import com.UniversitySchedule_2_2.entity.RegisteredTeacher;
+import java.util.Date;
 import lombok.Data;
 
 @Data
@@ -13,6 +14,10 @@ public class RegisteredTeacherDTO {
   private String department;
 
   private String institute;
+
+  private Date registrationDate;
+
+  private String applicationVersion;
 
   private String osVersion;
 
@@ -38,6 +43,8 @@ public class RegisteredTeacherDTO {
     this.userFullName = registeredTeacher.getUserFullName();
     this.department = registeredTeacher.getDepartment();
     this.institute = registeredTeacher.getInstitute();
+    this.registrationDate = registeredTeacher.getRegistrationDate();
+    this.applicationVersion = registeredTeacher.getApplicationVersion();
     this.osVersion = registeredTeacher.getOsVersion();
     this.versionSDK = registeredTeacher.getVersionSDK();
     this.buildDevice = registeredTeacher.getBuildDevice();

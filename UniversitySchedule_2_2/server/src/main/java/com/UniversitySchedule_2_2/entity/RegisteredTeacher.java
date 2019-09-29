@@ -3,12 +3,15 @@ package com.UniversitySchedule_2_2.entity;
 import static com.UniversitySchedule_2_2.constants.DBConstants.REGISTERED_TEACHER;
 
 import com.UniversitySchedule_2_2.dto.RegisteredTeacherDTO;
+import java.util.Date;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 import lombok.Data;
 
 @Entity
@@ -29,6 +32,13 @@ public class RegisteredTeacher extends RegisteredTeacherDTO {
 
     @Column(name = "institute", length = 100, nullable = false)
     private String institute;
+
+    @Column(name = "registration_date", nullable = false)
+    @Temporal(TemporalType.TIMESTAMP)
+    private Date registrationDate;
+
+    @Column(name = "application_version", length = 100, nullable = false)
+    private String applicationVersion;
 
     @Column(name = "os_version", length = 300)
     private String osVersion;

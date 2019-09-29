@@ -36,6 +36,8 @@ public class RegisteredStudentService {
                 employee.setInstitute(registeredStudent.getInstitute());
                 employee.setCourse(registeredStudent.getCourse());
                 employee.setGroup(registeredStudent.getGroup());
+                employee.setRegistrationDate(registeredStudent.getRegistrationDate());
+                employee.setApplicationVersion(registeredStudent.getApplicationVersion());
                 employee.setOsVersion(registeredStudent.getOsVersion());
                 employee.setVersionSDK(registeredStudent.getVersionSDK());
                 employee.setBuildDevice(registeredStudent.getBuildDevice());
