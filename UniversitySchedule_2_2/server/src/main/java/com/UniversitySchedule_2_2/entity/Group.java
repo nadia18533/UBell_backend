@@ -50,6 +50,9 @@ public class Group extends GroupDTO {
 
   @Column(name = "course", nullable = false)
   private Integer course;
+  
+    @Column(name = "theNumberOfPeopleInTheGroup", length = 30, nullable = false)
+  private Integer theNumberOfPeopleInTheGroup;
 
 }
 
