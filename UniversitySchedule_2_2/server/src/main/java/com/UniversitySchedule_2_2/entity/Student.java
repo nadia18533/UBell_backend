@@ -47,6 +47,9 @@ public class Student extends StudentDTO {
 
     @Column(name ="address", length = 100, nullable = true)
     private String address;
+    
+    @Column(name ="course", length = 30, nullable = true)
+    private String course;
 
     @Column(name ="about", length = 300, nullable = true)
     private String about;
