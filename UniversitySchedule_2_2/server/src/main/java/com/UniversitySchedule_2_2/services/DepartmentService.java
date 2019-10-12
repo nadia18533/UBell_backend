@@ -21,6 +21,14 @@ public class DepartmentService {
     public List<DepartmentDTO> getAllDepartments() {
         return departmentRepository.findAll().stream().map(DepartmentDTO::new).collect(Collectors.toList());
     }
+    
+    
+    @Autowired
+    private DepartmentRepository departmentRepository;
+
+    public List<DepartmentDTO> getAllDepartments() {
+        return departmentRepository.findAll().stream().map(DepartmentDTO::new).collect(Collectors.toList());
+    }
 
     public DepartmentDTO getOneDepartment(Long id) {
         return new DepartmentDTO(departmentRepository.getOne(id));
